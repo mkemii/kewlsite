@@ -21,7 +21,27 @@ body {
     color: greenyellow;
     font-size: 20px;
   }
-  a {
+
+a {
     color: cyan;
     text-decoration: none;
   }
+
+.tio-glaze {
+    background: #001f33;
+    padding: 20px;
+    border: 3px dashed #66ccff;
+    color: white;
+    font-family: 'Comic Sans MS',
+    cursive; text-align: center; 
+}
+
+.img-container {
+    padding: 10px;
+}
+
+    #back {
+    position: fixed;
+    bottom: 20px;
+    left: 40px;
+}
