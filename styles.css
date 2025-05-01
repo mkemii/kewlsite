@@ -7,15 +7,18 @@
 
 body {
     background-color: #000000;
-    color: #00ff00;
+    color: yellow;
     font-family: 'babysparkle', sans-serif;
     font-size: 2em;
-    background-image: url('img/tux_fredd.gif');
-    background-repeat: repeat;
+    background-image: url('img/polo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     text-align: center;
   }
   .marquee {
-    color: yellow;
+    color: greenyellow;
     font-size: 20px;
   }
   a {
