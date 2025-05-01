@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'babysparkle';
+    src: url('fonts/Baby\ Sparkle.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    background-color: #000000;
+    color: #00ff00;
+    font-family: 'babysparkle', sans-serif;
+    font-size: 2em;
+    background-image: url('img/tux_fredd.gif');
+    background-repeat: repeat;
+    text-align: center;
+  }
+  .marquee {
+    color: yellow;
+    font-size: 20px;
+  }
+  a {
+    color: cyan;
+    text-decoration: none;
+  }
