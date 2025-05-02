@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'babysparkle';
-    src: url('fonts/Baby\ Sparkle.ttf') format('truetype');
+    font-family: 'fragile-bomber';
+    src: url('fonts/fragile-bombers.regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
   }
@@ -8,17 +8,13 @@
 body {
     background-color: #000000;
     color: yellow;
-    font-family: 'babysparkle', sans-serif;
+    font-family: 'fragile-bomber', sans-serif;
     font-size: 2em;
     background-image: url('img/starglitter.gif');
     background-repeat: repeat;
     background-position: center;
     background-attachment: fixed;
     text-align: center;
-  }
-  .marquee {
-    color: greenyellow;
-    font-size: 20px;
   }
 
 a {
@@ -31,8 +27,7 @@ a {
     padding: 20px;
     border: 3px dashed #66ccff;
     color: white;
-    font-family: 'Comic Sans MS',
-    cursive; text-align: center; 
+    text-align: center; 
 }
 
 .img-container {
@@ -41,15 +36,25 @@ a {
 
 .back {
     position: fixed;
-    bottom: 20px;
+    bottom: 10px;
     left: 20px;
     padding: 10px;
 }
 
 .bordo {
     width: 33.33%;
-
     margin: 0 auto;
     float: left;
     box-sizing: border-box;
+}
+
+.main {
+  width: 33.33%;
+  margin: 0 auto;
+  float: left;
+  box-sizing: border-box;
+}
+
+.bordo img {
+  padding: 30px;
 }
