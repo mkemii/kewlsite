@@ -20,7 +20,11 @@ body {
 a {
     color: cyan;
     text-decoration: none;
-  }
+}
+
+a:hover {
+  color: yellow;
+}
 
 .tio-glaze {
     background: #001f33;
@@ -38,23 +42,35 @@ a {
     position: fixed;
     bottom: 10px;
     left: 20px;
-    padding: 10px;
+    margin-top: 10px;
 }
 
 .bordo {
-    width: 33.33%;
+    width: 25%;
     margin: 0 auto;
     float: left;
     box-sizing: border-box;
 }
 
 .main {
-  width: 33.33%;
+  width: 50%;
   margin: 0 auto;
   float: left;
   box-sizing: border-box;
+  background-color: #59a1e4;
+  border: #00000086 3.5px solid;
 }
 
 .bordo img {
-  padding: 30px;
+  padding: 20px;
+}
+
+.links {
+  margin: 20px;
+}
+
+.links img {
+  border: #000000 1px solid;
+  width: 100px;
+  height: 40px;
 }
